@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="blur-overlay"></div>
+    <main>
+        <div class="barra-lateral">
+            <img src="img/logo.png" alt="" id="logo">
+            <ul class="menu">
+                <li>
+                    <img src="/img/home.png" alt="" id="home-img">
+                    <p>Home</p>
+                </li>
+                <li>
+                    <img src="img/forecast.png" alt="" id="forecast-img">
+                    <p>Forecast</p>
+                </li>
+                <li>
+                    <img src="img/vendors.png" alt="" id="vendors-img">
+                    <p>Vendors</p>
+                </li>
+                <li>
+                    <img src="img/messages.png" alt="" id="messages-img">
+                    <p>Messages</p>
+                </li>
+                <li>
+                    <img src="img/categories.png" alt="" id="categories-img">
+                    <p>Categories</p>
+                </li>
+                <li>
+                    <img src="img/folders.png" alt="" id="folders-img">
+                    <p>Folders</p>
+                </li>
+            </ul>
+            <ul class="menu menu-inferior">
+                <li>
+                    <img src="img/settings.png" alt="" id="settings-img">
+                    <p>Settings</p>
+                </li>
+                <li>
+                    <img src="img/backup.png" alt="" id="backup-img">
+                    <p>Backup</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <div id="welcome-header">
+                <div class="welcome_title">
+                    <h2 id="title">Welcome Jess!</h2>
+                    <p id="welcome-subtitle">Here is your sales forecast dashboard</p>
+                </div>
+                <div class="right-fields">
+                    <div class="pesquisa">
+                        <img src="img/lupa.png" alt="" id="lupa">
+                        <input type="text" name="pesquisa" id="pesquisa" placeholder="Search your query">
+                    </div>
+                    <img src="img/notifications.png" alt="" id="notifications-img">
+                    <img src="img/user.png" alt="" id="user-img">
+                </div>
+            </div>
+            <div class="first-dash">
+                <div class="sales-total">
+                    <div class="block1">
+                        <div class="value">
+                            <h2>€ 102.5M</h2>
+                            <p>Total Revenue</p>
+                        </div>
+                        <div class="legenda">
+                            <ul class="lista-legenda">
+                                <li>
+                                    <span class="bullet" id="earned">xxx</span>
+                                    Earned
+                                </li>
+                                <li>
+                                    <span class="bullet" id="forecasted">xxx</span>
+                                    Forecasted
+                                </li>
+                                <li>
+                                    <select name="" id="">
+                                        <option value="">6 months</option>
+                                        <option value="">3 months</option>
+                                    </select>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="block2">
+                        <img src="img/sales_total.png" alt="" id="sales-graphic">
+                    </div>
+                </div>
+                <div class="data2">
+                    <div class="vendors_profits" id="vendors">
+                        <img src="img/vendors_total.png" alt="" id="total-vendors">
+                        <div class="number_vendors">
+                            <h2>300</h2>
+                            <p class="description_profits_vendors">Vendors Onboarded</p>
+                            <select name="" id="">
+                                <option value="">Jul 2025</option>
+                                <option value="">Aug 2025</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="vendors_profits">
+                        <img src="img/profits.png" alt="" id="total-profits">
+                        <div class="number_profits">
+                            <h2>€ 60K</h2>
+                            <p class="description_profits_vendors">Profits Earned</p>
+                            <select name="" id="">
+                                <option value="">Jul 2025</option>
+                                <option value="">Aug 2025</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cars-sold_vendors_activity">
+                <div class="title_graphic">
+                    <h2>Cars Sold</h2>
+                    <select name="" id="">
+                        <option value="">This month</option>
+                        <option value="">This week</option>
+                    </select>
+                </div>
+                <div id="graphic-cars_vendors">
+                    <img src="" alt="" id="cars-sold_graphic">
+                    <div class="legenda-grafico">
+                        <ul>
+                            <li>Sold</li>
+                        </ul>
+                        <p>10K</p>
+                        <ul>
+                            <li>Produced</li>
+                        </ul>
+                        <p>4k</p>
+                    </div>
+                </div>
+            </div>
+            <div class="cars-sold_vendors_activity">
+                <div class="title_graphic">
+                    <h2>Vendor Activity</h2>
+                    <select name="" id="">
+                        <option value="">This month</option>
+                        <option value="">This week</option>
+                    </select>
+                </div>
+                <div id="graphic-cars_vendors">
+                    <img src="" alt="" id="cars-sold_graphic">
+                </div>
+            </div>
+        </div>
+    </main>
+    
+</body>
+</html>
+
